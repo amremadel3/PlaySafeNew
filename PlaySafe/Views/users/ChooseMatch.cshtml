@@ -1,0 +1,53 @@
+﻿@model matchViewModel
+@{
+    ViewData["Title"] = "ChooseMatch";
+}
+
+<h1>ChooseMatch</h1>
+<br>
+<div class="col-md-4">
+    <form asp-action="ChooseMatch">
+        <!--
+
+                <div>
+                <p>User Id: @ViewBag.userId</p>
+                <p>User Type Id: @ViewBag.typeId</p>
+                <p>User Type: @ViewBag.userType</p>
+                </div>
+                        <label  class="control-label">Match Cost</label>
+            <div id="matches">
+
+            <p class = "matches" id="5" onclick="match(5)">5</p>
+
+            <p class = "matches"id="10" onclick="match(10)">10</p>
+
+            <p class="matches" id="20" onclick="match(20)">20</p>
+        </div>
+                -->
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            
+              
+
+            <select asp-for="matchCost"  class="form-control" >
+            @foreach(var item in ViewBag.costs){
+                <option>@item</option>
+            }    
+            </select>
+             
+            <span asp-validation-for="matchCost" class="text-danger"></span>
+        </div>
+        <br>
+        <input type="submit" value="enter" class="btn btn-primary" />
+        <input asp-for="withPoints" type ="checkbox"/> Pay with points
+    </form>
+</div>
+
+<br>
+<div class="points">Your Points: @ViewBag.Points</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }
