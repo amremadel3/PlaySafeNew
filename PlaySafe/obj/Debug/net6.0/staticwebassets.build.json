@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WOim3Y50Yv3uLQmKMV81NtPYGdUV59QIPjoHJIGRwoQ=",
+  "Hash": "StFsfQgWjQJCXikqPxUgKLEkl6VHzcFZ/SY2WBgHSsM=",
   "Source": "PlaySafe",
   "BasePath": "_content/PlaySafe",
   "Mode": "Default",
@@ -117,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\dc04b170-7714-47c3-b4e9-2fe45dfb9be6\\1053268.jpg"
+    },
+    {
+      "Identity": "F:\\PlaySafe\\PlaySafe\\wwwroot\\images\\e9a12bdc-eebd-46ee-bcb6-9c5f0e30c85e\\1053268.jpg",
+      "SourceId": "PlaySafe",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\PlaySafe\\PlaySafe\\wwwroot\\",
+      "BasePath": "_content/PlaySafe",
+      "RelativePath": "images/e9a12bdc-eebd-46ee-bcb6-9c5f0e30c85e/1053268.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\e9a12bdc-eebd-46ee-bcb6-9c5f0e30c85e\\1053268.jpg"
     },
     {
       "Identity": "F:\\PlaySafe\\PlaySafe\\wwwroot\\js\\site.js",

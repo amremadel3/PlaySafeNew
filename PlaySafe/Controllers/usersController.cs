@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Http;
 using System.Security.Cryptography;
 using System.Text;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.Win32;
 
 namespace PlaySafe.Controllers
 {
@@ -85,7 +86,11 @@ namespace PlaySafe.Controllers
                     ModelState.AddModelError("userName", error);
                     return View(register);
                 }
-               
+               if(register.password != register.confirmPassword)
+                {
+                    ModelState.AddModelError("confirmPassword", "Passwords don't match");
+                    return View(register);
+                }
                 var typeIsUser = _context.userType.Where(x => x.usersType == "player").FirstOrDefault();
                 if(typeIsUser != null)
                 {
@@ -142,6 +147,7 @@ namespace PlaySafe.Controllers
         // GET: users/Edit/5
         public async Task<IActionResult> Edit(Guid? id)
         {
+
             if (id == null || _context.user == null)
             {
                 return NotFound();
@@ -172,6 +178,18 @@ namespace PlaySafe.Controllers
         {
             if (ModelState.IsValid)
             {
+                var userNameCheck = _context.user.Where(x => x.userName == user.userName && x.id != id).FirstOrDefault();
+                if (userNameCheck != null)
+                {
+                    string error = user.userName + " is already taken";
+                    ModelState.AddModelError("userName", error);
+                    return View(user);
+                }
+                if (user.password != user.confirmPassword)
+                {
+                    ModelState.AddModelError("confirmPassword", "Passwords don't match");
+                    return View(user);
+                }
                 try
                 {
                     user User = _context.user.Find(id);
@@ -310,7 +328,8 @@ namespace PlaySafe.Controllers
             {
                 return View("error");//need to change
             }
-                       
+            var oldMatches = _context.matchHistory.Where(x => x.userId == userGuid).ToArray();
+            
             matchHistory lastMatch = _context.matchHistory.Where(n => n.userId == userGuid && n.active == true).FirstOrDefault();           
             if (lastMatch == null || lastMatch.createdDate.AddHours(24) <= DateTime.Now)
              {
@@ -331,7 +350,19 @@ namespace PlaySafe.Controllers
                  _context.matchHistory.Add(matchHistory);
                 if (match.withPoints)
                 {
-                    user.points = user.points + (match.matchCost * 2);
+                    if(oldMatches.Count() <= 5)
+                    {
+                        ModelState.AddModelError("matchCost", "Cannot use Points unless you play 5 matches");
+                        ViewBag.Points = user.points;
+                        return View();
+                    }
+                    if(user.points < match.matchCost)
+                    {
+                        ModelState.AddModelError("matchCost", "You don't have enough points");
+                        ViewBag.Points = user.points;
+                        return View();
+                    }
+                        user.points = user.points - match.matchCost;
                 }
                 else
                 {

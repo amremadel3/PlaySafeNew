@@ -108,6 +108,9 @@
                                     <a class="nav-link text-dark" asp-area="" asp-controller="users" asp-action="ChooseMatch">Choose Match</a>
                                 </li>
                                 <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="users" asp-action="Details" asp-route-id="@Context.Session.GetString("userId")">Details</a>
+                                </li>
+                                <li class="nav-item">
                                     <a class="nav-link text-dark" asp-area="" asp-controller="users" asp-action="logOut">Log Out</a>
                                 </li>
                             </ul>
