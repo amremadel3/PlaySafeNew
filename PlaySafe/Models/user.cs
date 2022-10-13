@@ -25,8 +25,7 @@ namespace PlaySafe.Models
         [DisplayName("Phone Num")]
         public string phoneNum { get; set; }
         public string? photo { get; set; }
-        public int? points { get; set; }
-        
+        public int? points { get; set; } = 0;
     }
     public class registerViewModel
     {
