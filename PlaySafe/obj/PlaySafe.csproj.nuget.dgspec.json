@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\PlaySafe\\PlaySafe\\PlaySafe.csproj": {}
+    "F:\\PlaySafeNew2\\PlaySafeNew\\PlaySafe\\PlaySafe.csproj": {}
   },
   "projects": {
-    "F:\\PlaySafe\\PlaySafe\\PlaySafe.csproj": {
+    "F:\\PlaySafeNew2\\PlaySafeNew\\PlaySafe\\PlaySafe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\PlaySafe\\PlaySafe\\PlaySafe.csproj",
+        "projectUniqueName": "F:\\PlaySafeNew2\\PlaySafeNew\\PlaySafe\\PlaySafe.csproj",
         "projectName": "PlaySafe",
-        "projectPath": "F:\\PlaySafe\\PlaySafe\\PlaySafe.csproj",
+        "projectPath": "F:\\PlaySafeNew2\\PlaySafeNew\\PlaySafe\\PlaySafe.csproj",
         "packagesPath": "C:\\Users\\amrem\\.nuget\\packages\\",
-        "outputPath": "F:\\PlaySafe\\PlaySafe\\obj\\",
+        "outputPath": "F:\\PlaySafeNew2\\PlaySafeNew\\PlaySafe\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\amrem\\AppData\\Roaming\\NuGet\\NuGet.Config",
