@@ -1,0 +1,50 @@
+﻿@model PlaySafe.Models.comments
+@*   <form asp-action="comment">
+
+  <div class="form-outline mb-4">
+
+    <label class="form-label"> Write your comment </label>
+    <input asp-for="comment" class="form-control" name="commentText" />
+        <div class="form-group ">
+            <input type="submit" value="Send" class="btn btn-primary" />
+        </div>
+
+</div>
+    </form>
+*@
+@{
+    var photoPath = "images" + "/" + Context.Session.GetString("userId") + "/" + (Context.Session.GetString("photo") ?? "defaultImage.jpg");
+}
+<form asp-action="comment">
+    <section style="background-color: whitesmoke;">
+        <div class="container my-5 py-5 text-dark">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-6">
+                    <div class="card">
+                        <div class="card-body p-4">
+                            <div class="d-flex flex-start w-100">
+                                <img class="rounded-circle shadow-1-strong me-3"
+                                     src="~/@photoPath" alt="avatar" width="65"
+                                     height="65" />
+                                <div class="w-100">
+                                    <h5>Add a comment</h5>
+
+                                    <div class="form-outline">
+                                        <textarea class="form-control" id="textAreaExample" name="commentText" rows="4"></textarea>
+                                        <label class="form-label" for="textAreaExample">What is your view?</label>
+                                    </div>
+                                    <div class="d-flex justify-content-between mt-3">
+
+                                        <button type="submit" class="btn btn-danger">
+                                            Send <i class="fas fa-long-arrow-alt-right ms-1"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</form>

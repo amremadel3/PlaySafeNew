@@ -394,5 +394,53 @@ namespace PlaySafe.Controllers
             HttpContext.Session.Clear();
             return Redirect("/Users/login"); 
         }
+
+        public IActionResult comment()
+        {
+            var userid = HttpContext.Session.GetString("userId");
+            var userInGuid = new Guid(userid);
+            var user = _context.user.Where(x => x.id == userInGuid).FirstOrDefault();
+            HttpContext.Session.SetString("photo", (user.photo));
+            return View();
+        }
+
+
+        [HttpPost]
+        public IActionResult comment(string commentText)
+        {
+
+            var userid = HttpContext.Session.GetString("userId");
+            var userInGuid = new Guid(userid);
+            if (userInGuid == Guid.Empty)
+            {
+                return RedirectToAction("login");
+
+            }
+           
+            comments c = new comments()
+            {
+                id = Guid.NewGuid(),
+                comment = commentText,
+                userId = userInGuid
+            };
+            _context.comments.Add(c);
+            _context.SaveChanges();
+            return RedirectToAction("Index", "Home");
+        }
+        public ActionResult readcomment()
+        {
+            var c = _context.comments.Include(m => m.comment).ToList();
+            return View(c);
+        }
+
+        public IActionResult chatting()
+        {
+            var userid = HttpContext.Session.GetString("userId");
+            var userInGuid = new Guid(userid);
+            var user = _context.user.Where(x => x.id == userInGuid).FirstOrDefault();            
+            HttpContext.Session.SetString("Name", user.name.ToString());
+            return View();
+        }
+
     }
 }

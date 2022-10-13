@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using chat.Hubs;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using PlaySafe.Data;
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +10,7 @@ builder.Services.AddDbContext<dbContext>(options =>
 builder.Services.AddControllersWithViews();
 //configure app services
 builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSignalR();
 builder.Services.AddSession();
 var app = builder.Build();
 // Configure the HTTP request pipeline.
@@ -27,6 +29,14 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.UseSession();
+
+app.UseEndpoints(endpoints =>
+{
+
+    endpoints.MapHub<ChatHub>("/chathub");
+});
+
+
 
 app.MapControllerRoute(
     name: "default",
