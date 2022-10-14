@@ -394,7 +394,7 @@ namespace PlaySafe.Controllers
             var oldMatches = _context.matchHistory.Where(x => x.userId == userGuid).ToArray();
 
             matchHistory lastMatch = _context.matchHistory.Where(n => n.userId == userGuid && n.active == true).FirstOrDefault();
-            if (lastMatch == null || lastMatch.createdDate.AddHours(24) <= DateTime.Now.AddHours(24))
+            if (lastMatch == null || lastMatch.createdDate.AddHours(24) <= DateTime.Now)
             {
                 if (lastMatch != null)
                 {
@@ -466,23 +466,38 @@ namespace PlaySafe.Controllers
                 ViewBag.Points = user.points;
                 _context.user.Update(user);
                 _context.SaveChanges();
-
+                if (match.isCustomPrice == true) HttpContext.Session.SetString("customPrice", "1");
+                else HttpContext.Session.SetString("customPrice", "0");
                 //return Redirect("/Users/logOut");                
-                return View();
+                return Redirect("/users/MatchTicket");
             }
             ViewBag.Points = user.points;
             ModelState.AddModelError("matchCost", "You Have to until for your next match");
             return View();
         }
-        public IActionResult MatchTicket(string commentText) 
+        public IActionResult MatchTicket() 
         { 
             var userid = HttpContext.Session.GetString("userId");
             var userInGuid = new Guid(userid);
             var user = _context.user.Where(x => x.id == userInGuid).FirstOrDefault();
             var cost = _context.matchHistory.Where(x => x.userId == userInGuid && x.active == true).FirstOrDefault();
             var entry = _context.entry.Where(x => x.id == cost.entryId).FirstOrDefault();
+            ViewBag.points = "No";
+            if (HttpContext.Session.GetString("customPrice") == "1")
+            {
+                ViewBag.value = cost.customPrice;
+                ViewBag.points = "Yes";
+            }
+            else if(HttpContext.Session.GetString("customPrice") == "0")
+            {
+                ViewBag.value = entry.price;
+                ViewBag.points = "No";
+            }
+            else
+            {
+                return Redirect("/users/chooseMatch");
+            }
             HttpContext.Session.SetString("Name", user.name.ToString());
-            ViewBag.value = entry.price;
             return View();
         } 
 
