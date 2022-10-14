@@ -38,11 +38,19 @@
             <span asp-validation-for="matchCost" class="text-danger"></span>
         </div>
         <br>
-        <input type="submit" value="enter" class="btn btn-primary" />
+        <input type="submit" value="Play" class="btn btn-primary" />
         <input asp-for="withPoints" type ="checkbox"/> Pay with points
     </form>
 </div>
+<br />
+<button class="btn btn-primary"  onclick="myfun()">Print</button>
+<script>
+    function myfun(){
+        window.print();
+    }
 
+
+</script>
 <br>
 <div class="points">Your Points: @ViewBag.Points</div>
 

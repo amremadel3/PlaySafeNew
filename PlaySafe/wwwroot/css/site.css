@@ -7,6 +7,13 @@ html {
     font-size: 16px;
   }
 }
+@media (prefers-color-scheme:dark) {
+    body {
+        background-color: #333;
+        color:white;
+
+    }
+}
 
 html {
   position: relative;
@@ -16,3 +23,4 @@ html {
 body {
   margin-bottom: 60px;
 }
+

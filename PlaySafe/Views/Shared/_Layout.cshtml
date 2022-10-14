@@ -15,9 +15,9 @@
         @if(x != null)
         {
             @if(x == "Owner"){
-                <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+                <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-dark border-bottom box-shadow mb-3">
                     <div class="container-fluid">
-                        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">PlaySafe</a>
+                        <a class="navbar-brand text-white" asp-area="" asp-controller="Home" asp-action="Index">PlaySafe</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -25,16 +25,16 @@
                         <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                             <ul class="navbar-nav flex-grow-1">
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                                    <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                                 </li>                              
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="users" asp-action="Create">Create Admins</a>
+                                    <a class="nav-link text-white" asp-area="" asp-controller="users" asp-action="Create">Create Admins</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="users" asp-action="createOwner">Create Owners</a>
+                                    <a class="nav-link text-white" asp-area="" asp-controller="users" asp-action="createOwner">Create Owners</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="users" asp-action="logOut">Log Out</a>
+                                    <a class="nav-link text-white" asp-area="" asp-controller="users" asp-action="logOut">Log Out</a>
                                 </li>
                                
                             </ul>
@@ -43,9 +43,9 @@
                 </nav>
             }
             @if(x == "Admin"){
-                <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+                <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-dark border-bottom box-shadow mb-3">
                     <div class="container-fluid">
-                        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">PlaySafe</a>
+                        <a class="navbar-brand text-white" asp-area="" asp-controller="Home" asp-action="Index">PlaySafe</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -53,13 +53,13 @@
                         <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                             <ul class="navbar-nav flex-grow-1">
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                                    <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="users" asp-action="Create">Create Guards</a>
+                                    <a class="nav-link text-white" asp-area="" asp-controller="users" asp-action="Create">Create Guards</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="users" asp-action="logOut">Log Out</a>
+                                    <a class="nav-link text-white" asp-area="" asp-controller="users" asp-action="logOut">Log Out</a>
                                 </li>
                             </ul>
                         </div>
@@ -67,9 +67,9 @@
                 </nav>
             }
             @if(x == "Guard"){
-                <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+                <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-dark border-bottom box-shadow mb-3">
                     <div class="container-fluid">
-                        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">PlaySafe</a>
+                        <a class="navbar-brand text-white" asp-area="" asp-controller="Home" asp-action="Index">PlaySafe</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -77,13 +77,13 @@
                         <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                             <ul class="navbar-nav flex-grow-1">
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                                    <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="users" asp-action="Create">Create Users</a>
+                                    <a class="nav-link text-white" asp-area="" asp-controller="users" asp-action="Create">Create Users</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="users" asp-action="logOut">Log Out</a>
+                                    <a class="nav-link text-white" asp-area="" asp-controller="users" asp-action="logOut">Log Out</a>
                                 </li>
                             </ul>
                         </div>
@@ -92,9 +92,10 @@
             }
             @if (x == "Player")
             {
-                <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+              @*  navbar navbar-expand - sm navbar - toggleable - sm navbar - light bg - white border - bottom box - shadow mb - 3*@
+                <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-dark border-bottom box-shadow mb-3">
                     <div class="container-fluid">
-                        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">PlaySafe</a>
+                        <a class="navbar-brand text-white" asp-area="" asp-controller="Home" asp-action="Index">PlaySafe</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -102,22 +103,22 @@
                         <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                             <ul class="navbar-nav flex-grow-1">
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                                    <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="users" asp-action="ChooseMatch">Choose Match</a>
+                                    <a class="nav-link text-white" asp-area="" asp-controller="users" asp-action="ChooseMatch">Choose Match</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="users" asp-action="Details" asp-route-id="@Context.Session.GetString("userId")">Details</a>
+                                    <a class="nav-link text-white" asp-area="" asp-controller="users" asp-action="Details" asp-route-id="@Context.Session.GetString("userId")">Details</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="users" asp-action="logOut">Log Out</a>
+                                    <a class="nav-link text-white" asp-area="" asp-controller="users" asp-action="comment">Comment</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="users" asp-action="comment">Comment</a>
+                                    <a class="nav-link text-white" asp-area="" asp-controller="users" asp-action="chatting">ChatRoom</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="users" asp-action="chatting">ChatRoom</a>
+                                    <a class="nav-link text-white" asp-area="" asp-controller="users" asp-action="logOut">Log Out</a>
                                 </li>
                             </ul>
                         </div>
@@ -132,7 +133,7 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="border-top footer text-black">
         <div class="container">
             &copy; 2022 - PlaySafe - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
