@@ -373,13 +373,25 @@ namespace PlaySafe.Controllers
                 _context.user.Update(user);
                  _context.SaveChanges();
                 
-                //return Redirect("/Users/logOut");                
-                return View();
+                 return Redirect("/Users/MatchTicket");                
+                //return View();
              }
             ViewBag.Points = user.points;
             ModelState.AddModelError("matchCost", "You Have to until for your next match");
             return View();
         }
+        public IActionResult MatchTicket(string commentText) 
+        { 
+            var userid = HttpContext.Session.GetString("userId");
+            var userInGuid = new Guid(userid);
+            var user = _context.user.Where(x => x.id == userInGuid).FirstOrDefault();
+            var cost = _context.matchHistory.Where(x => x.userId == userInGuid && x.active == true).FirstOrDefault();
+            var entry = _context.entry.Where(x => x.id == cost.entryId).FirstOrDefault();
+            HttpContext.Session.SetString("Name", user.name.ToString());
+            ViewBag.value = entry.price;
+            return View();
+        } 
+
         public byte[] GetHash(string PasswordHash)
         {
             using (HashAlgorithm algorithm = SHA256.Create())
