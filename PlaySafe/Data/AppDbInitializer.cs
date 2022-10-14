@@ -60,7 +60,6 @@ namespace PlaySafe.Data
                                     password = password,
                                     createdDate = DateTime.Now,
                                     phoneNum = "123",
-                                    photo = "/admin/photo"
                                 });
                             }
                     context.SaveChanges();

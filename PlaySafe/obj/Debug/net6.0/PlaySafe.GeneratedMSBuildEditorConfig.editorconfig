@@ -8,97 +8,101 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PlaySafe
 build_property.RootNamespace = PlaySafe
-build_property.ProjectDir = D:\Ramez's study\Fereelancing\PlaySafeNew\PlaySafe\
+build_property.ProjectDir = F:\Work2\Last version\mix\PlaySafeNew\PlaySafe\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Ramez's study\Fereelancing\PlaySafeNew\PlaySafe
+build_property.MSBuildProjectDirectory = F:\Work2\Last version\mix\PlaySafeNew\PlaySafe
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Ramez's study/Fereelancing/PlaySafeNew/PlaySafe/Views/Home/Index.cshtml]
+[F:/Work2/Last version/mix/PlaySafeNew/PlaySafe/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Ramez's study/Fereelancing/PlaySafeNew/PlaySafe/Views/Home/Privacy.cshtml]
+[F:/Work2/Last version/mix/PlaySafeNew/PlaySafe/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Ramez's study/Fereelancing/PlaySafeNew/PlaySafe/Views/Shared/Error.cshtml]
+[F:/Work2/Last version/mix/PlaySafeNew/PlaySafe/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Ramez's study/Fereelancing/PlaySafeNew/PlaySafe/Views/Shared/_ValidationScriptsPartial.cshtml]
+[F:/Work2/Last version/mix/PlaySafeNew/PlaySafe/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Ramez's study/Fereelancing/PlaySafeNew/PlaySafe/Views/users/chatting.cshtml]
+[F:/Work2/Last version/mix/PlaySafeNew/PlaySafe/Views/users/chatting.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdXNlcnNcY2hhdHRpbmcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Ramez's study/Fereelancing/PlaySafeNew/PlaySafe/Views/users/ChooseMatch.cshtml]
+[F:/Work2/Last version/mix/PlaySafeNew/PlaySafe/Views/users/ChooseMatch.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdXNlcnNcQ2hvb3NlTWF0Y2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Ramez's study/Fereelancing/PlaySafeNew/PlaySafe/Views/users/comment.cshtml]
+[F:/Work2/Last version/mix/PlaySafeNew/PlaySafe/Views/users/comment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdXNlcnNcY29tbWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Ramez's study/Fereelancing/PlaySafeNew/PlaySafe/Views/users/Create.cshtml]
+[F:/Work2/Last version/mix/PlaySafeNew/PlaySafe/Views/users/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdXNlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Ramez's study/Fereelancing/PlaySafeNew/PlaySafe/Views/users/Delete.cshtml]
+[F:/Work2/Last version/mix/PlaySafeNew/PlaySafe/Views/users/createPlayer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdXNlcnNcY3JlYXRlUGxheWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Work2/Last version/mix/PlaySafeNew/PlaySafe/Views/users/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdXNlcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Ramez's study/Fereelancing/PlaySafeNew/PlaySafe/Views/users/Details.cshtml]
+[F:/Work2/Last version/mix/PlaySafeNew/PlaySafe/Views/users/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdXNlcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Ramez's study/Fereelancing/PlaySafeNew/PlaySafe/Views/users/Edit.cshtml]
+[F:/Work2/Last version/mix/PlaySafeNew/PlaySafe/Views/users/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdXNlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Ramez's study/Fereelancing/PlaySafeNew/PlaySafe/Views/users/Index.cshtml]
+[F:/Work2/Last version/mix/PlaySafeNew/PlaySafe/Views/users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Ramez's study/Fereelancing/PlaySafeNew/PlaySafe/Views/users/login.cshtml]
+[F:/Work2/Last version/mix/PlaySafeNew/PlaySafe/Views/users/login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdXNlcnNcbG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Ramez's study/Fereelancing/PlaySafeNew/PlaySafe/Views/users/MatchTicket.cshtml]
+[F:/Work2/Last version/mix/PlaySafeNew/PlaySafe/Views/users/MatchTicket.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdXNlcnNcTWF0Y2hUaWNrZXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Ramez's study/Fereelancing/PlaySafeNew/PlaySafe/Views/userTypes/Create.cshtml]
+[F:/Work2/Last version/mix/PlaySafeNew/PlaySafe/Views/userTypes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdXNlclR5cGVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Ramez's study/Fereelancing/PlaySafeNew/PlaySafe/Views/userTypes/Delete.cshtml]
+[F:/Work2/Last version/mix/PlaySafeNew/PlaySafe/Views/userTypes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdXNlclR5cGVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Ramez's study/Fereelancing/PlaySafeNew/PlaySafe/Views/userTypes/Details.cshtml]
+[F:/Work2/Last version/mix/PlaySafeNew/PlaySafe/Views/userTypes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdXNlclR5cGVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Ramez's study/Fereelancing/PlaySafeNew/PlaySafe/Views/userTypes/Edit.cshtml]
+[F:/Work2/Last version/mix/PlaySafeNew/PlaySafe/Views/userTypes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdXNlclR5cGVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Ramez's study/Fereelancing/PlaySafeNew/PlaySafe/Views/userTypes/Index.cshtml]
+[F:/Work2/Last version/mix/PlaySafeNew/PlaySafe/Views/userTypes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdXNlclR5cGVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Ramez's study/Fereelancing/PlaySafeNew/PlaySafe/Views/_ViewImports.cshtml]
+[F:/Work2/Last version/mix/PlaySafeNew/PlaySafe/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Ramez's study/Fereelancing/PlaySafeNew/PlaySafe/Views/_ViewStart.cshtml]
+[F:/Work2/Last version/mix/PlaySafeNew/PlaySafe/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Ramez's study/Fereelancing/PlaySafeNew/PlaySafe/Views/Shared/_Layout.cshtml]
+[F:/Work2/Last version/mix/PlaySafeNew/PlaySafe/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-u8f154nbyt

@@ -75,60 +75,117 @@ namespace PlaySafe.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+
         public async Task<IActionResult> Create([Bind("name,userName,password,phoneNum,confirmPassword,photo")] registerViewModel register)
         {
+
+
+
             if (ModelState.IsValid)
             {
                 var userNameCheck = _context.user.Where(x => x.userName == register.userName).FirstOrDefault();
-                if(userNameCheck != null)
+                if (userNameCheck != null)
                 {
                     string error = register.userName + " is already taken";
                     ModelState.AddModelError("userName", error);
                     return View(register);
                 }
-               if(register.password != register.confirmPassword)
+                if (register.password != register.confirmPassword)
                 {
                     ModelState.AddModelError("confirmPassword", "Passwords don't match");
                     return View(register);
                 }
                 var typeIsUser = _context.userType.Where(x => x.usersType == "player").FirstOrDefault();
-                if(typeIsUser != null)
+                if (typeIsUser != null)
                 {
                     var userType = HttpContext.Session.GetString("userType");
-                    
+                    Guid superVisorId = Guid.Empty;
+                    if (userType == "Admin")
+                    {
+                        typeIsUser = _context.userType.Where(x => x.usersType == "Guard").FirstOrDefault();
+                        superVisorId = new Guid(HttpContext.Session.GetString("userId"));
+                    }
+                    else if (userType == "Owner")
+                    {
+                        typeIsUser = _context.userType.Where(x => x.usersType == "Admin").FirstOrDefault();
+                    }
 
-                    if (userType == "Admin") typeIsUser = _context.userType.Where(x => x.usersType == "Guard").FirstOrDefault();
-
-                    else if (userType == "Owner") typeIsUser = _context.userType.Where(x => x.usersType == "Admin").FirstOrDefault();
-
-                    else if (userType == "Guard") typeIsUser = _context.userType.Where(x => x.usersType == "Player").FirstOrDefault();
 
                     else return Redirect("/Home/Index");
 
+                    Guid id = Guid.NewGuid();
+
+                    var passwordHash = GetHash(register.password);
+                    user User = new user()
+                    {
+                        id = id,
+                        userTypeId = typeIsUser.id,
+                        supervisorId = (superVisorId == Guid.Empty) ? null : superVisorId,
+                        name = register.name,
+                        userName = register.userName,
+                        password = passwordHash,
+                        createdDate = DateTime.Now,
+                        phoneNum = register.phoneNum
+                    };
+                    _context.user.Add(User);
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
+                }
+            }
+            return View(register);
+        }
+        public async Task<IActionResult> createPlayer()
+        {
+            return View();
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> createPlayer([Bind("name,userName,password,confirmPassword,phoneNum,photo")] playerViewModel register)
+        {
+            if (ModelState.IsValid)
+            {
+                var userNameCheck = _context.user.Where(x => x.userName == register.userName).FirstOrDefault();
+                if (userNameCheck != null)
+                {
+                    string error = register.userName + " is already taken";
+                    ModelState.AddModelError("userName", error);
+                    return View(register);
+                }
+                if (register.password != register.confirmPassword)
+                {
+                    ModelState.AddModelError("confirmPassword", "Passwords don't match");
+                    return View(register);
+                }
+                var typeIsUser = _context.userType.Where(x => x.usersType == "player").FirstOrDefault();
+                if (typeIsUser != null)
+                {
+                    var userType = "Guard";
+                    var guard = _context.user.Where(x => x.id == new Guid(HttpContext.Session.GetString("userId"))).FirstOrDefault();
                     Guid id = Guid.NewGuid();
                     string filename = null;
                     if (register.photo != null)
                     {
                         id = Guid.NewGuid();
                         string filePath = "images\\" + id.ToString("D");
-                        string path = Path.Combine(_hostingEnvirnoment.WebRootPath, filePath);                                              
-                        if(!Directory.Exists(path))
+                        string path = Path.Combine(_hostingEnvirnoment.WebRootPath, filePath);
+                        if (!Directory.Exists(path))
                         {
                             Directory.CreateDirectory(path);
                             filename = register.photo.FileName;
-                            register.photo.CopyTo(new FileStream(Path.Combine(path,filename), FileMode.Create));
+                            register.photo.CopyTo(new FileStream(Path.Combine(path, filename), FileMode.Create));
                         }
                         else
                         {
                             //overWrite Image
                         }
-                            
+
                     }
                     var passwordHash = GetHash(register.password);
-                    user User = new user()
+                    player Player = new player()
                     {
                         id = id,
                         userTypeId = typeIsUser.id,
+                        supervisorId = guard.supervisorId,
                         name = register.name,
                         userName = register.userName,
                         password = passwordHash,
@@ -137,7 +194,7 @@ namespace PlaySafe.Controllers
                         points = 0,
                         photo = filename
                     };
-                    _context.user.Add(User);
+                    _context.player.Add(Player);
                     await _context.SaveChangesAsync();
                     return RedirectToAction(nameof(Index));
                 }
@@ -289,10 +346,10 @@ namespace PlaySafe.Controllers
             ModelState.AddModelError("userName", "Username or password are invalid");
             return View(loginCredentials);
         }
-        public async Task<IActionResult> ChooseMatch()
+       public async Task<IActionResult> ChooseMatch()
         {
             var costs = _context.entry.ToArray();
-            var points = _context.user.Where(x => x.id == new Guid(HttpContext.Session.GetString("userId"))).FirstOrDefault();
+            var points = _context.player.Where(x => x.id == new Guid(HttpContext.Session.GetString("userId"))).FirstOrDefault();
             List<int> allCosts = new List<int>();
             foreach(var entry in costs)
             {
@@ -307,11 +364,12 @@ namespace PlaySafe.Controllers
             return View();
         }
 
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> ChooseMatch([Bind("matchCost,withPoints")] matchViewModel match)
+        public async Task<IActionResult> ChooseMatch([Bind("matchCost,withPoints,customPrice,isCustomPrice")] matchViewModel match)
         {
-           
+
             var costs = _context.entry.ToArray();
             List<int> allCosts = new List<int>();
             foreach (var entry2 in costs)
@@ -320,62 +378,98 @@ namespace PlaySafe.Controllers
             }
             allCosts.Sort();
             ViewBag.costs = allCosts;
-            var userId = HttpContext.Session.GetString("userId");
-            var userGuid = new Guid(userId);
-            var user = _context.user.Where(x => x.id == userGuid).FirstOrDefault();
+            var userGuid = new Guid(HttpContext.Session.GetString("userId"));
+            var user = _context.player.Where(x => x.id == userGuid).FirstOrDefault();
             var entry = _context.entry.Where(n => n.price == match.matchCost).FirstOrDefault();
-            if(user == null || userId == null || entry == null)
+            if (user == null || (entry == null && match.customPrice == null))
             {
-                return View("error");//need to change
+                ModelState.AddModelError("customPrice", "Please Enter a number");
+                return View();//need to change
+            }
+            if (match.customPrice < 20)
+            {
+                ModelState.AddModelError("customPrice", "Points need to be more than 20");
+                return View();
             }
             var oldMatches = _context.matchHistory.Where(x => x.userId == userGuid).ToArray();
-            
-            matchHistory lastMatch = _context.matchHistory.Where(n => n.userId == userGuid && n.active == true).FirstOrDefault();           
-            if (lastMatch == null || lastMatch.createdDate.AddHours(24) <= DateTime.Now)
-             {
-                if(lastMatch != null)
+
+            matchHistory lastMatch = _context.matchHistory.Where(n => n.userId == userGuid && n.active == true).FirstOrDefault();
+            if (lastMatch == null || lastMatch.createdDate.AddHours(24) <= DateTime.Now.AddHours(24))
+            {
+                if (lastMatch != null)
                 {
                     lastMatch.active = false;
                 }
-                
+                Guid entryId = Guid.Empty;
+                if (entry != null)
+                {
+                    entryId = entry.id;
+                }
+                if(match.isCustomPrice && match.customPrice == null)
+                {
+                    ModelState.AddModelError("morePoints", "Please Enter a number");
+                    return View(match);
+                }
                 matchHistory matchHistory = new matchHistory()
                 {
-                     id = Guid.NewGuid(),
-                     userId = userGuid,
-                     entryId = entry.id,                     
-                     createdDate = DateTime.Now,
-                     active = true,
-                     withPoints = match.withPoints
-                 };
-                 _context.matchHistory.Add(matchHistory);
+                    id = Guid.NewGuid(),
+                    userId = userGuid,
+                    entryId = match.isCustomPrice == true ? null : entryId,
+                    createdDate = DateTime.Now,
+                    active = true,
+                    withPoints = match.withPoints,
+                    customPrice = match.isCustomPrice == true ? match.customPrice : null
+                };
+                _context.matchHistory.Add(matchHistory);
                 if (match.withPoints)
                 {
-                    if(oldMatches.Count() <= 5)
+
+                    if (oldMatches.Count() <= 5)
                     {
-                        ModelState.AddModelError("matchCost", "Cannot use Points unless you play 5 matches");
+                        ModelState.AddModelError("matchCost", "Cannot use Points unless you play 5 matches");                        
                         ViewBag.Points = user.points;
                         return View();
                     }
-                    if(user.points < match.matchCost)
+                    if (match.isCustomPrice)
                     {
-                        ModelState.AddModelError("matchCost", "You don't have enough points");
-                        ViewBag.Points = user.points;
-                        return View();
+                        if (user.points < match.customPrice)
+                        {
+                            ModelState.AddModelError("customPrice", "You don't have enough points");
+                            ViewBag.Points = user.points;
+                            return View();
+                        }
+                        user.points = user.points - (int)match.customPrice;
                     }
-                        user.points = user.points - match.matchCost;
+                    else
+                    {
+                        if (user.points < match.matchCost)
+                        {
+                            ModelState.AddModelError("matchCost", "You don't have enough points");
+                            ViewBag.Points = user.points;
+                            return View();
+                        }
+                        user.points = user.points - (int)match.matchCost;
+                    }
                 }
                 else
                 {
-                    user.points = user.points + (match.matchCost * 4);
+                    if (match.isCustomPrice)
+                    {
+                        user.points = user.points + (int)(match.customPrice * 4);
+                    }
+                    else
+                    {
+                        user.points = user.points + (int)(match.matchCost * 4);
+                    }
                 }
-               
+
                 ViewBag.Points = user.points;
                 _context.user.Update(user);
-                 _context.SaveChanges();
-                
-                 return Redirect("/Users/MatchTicket");                
-                //return View();
-             }
+                _context.SaveChanges();
+
+                //return Redirect("/Users/logOut");                
+                return View();
+            }
             ViewBag.Points = user.points;
             ModelState.AddModelError("matchCost", "You Have to until for your next match");
             return View();
@@ -411,7 +505,7 @@ namespace PlaySafe.Controllers
         {
             var userid = HttpContext.Session.GetString("userId");
             var userInGuid = new Guid(userid);
-            var user = _context.user.Where(x => x.id == userInGuid).FirstOrDefault();
+            var user = _context.player.Where(x => x.id == userInGuid).FirstOrDefault();
             HttpContext.Session.SetString("photo", (user.photo));
             return View();
         }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TelcNkUHfP71DLrsyr2ZXU6VaJR15U0gi1AbMQoH8pw=",
+  "Hash": "WMElzjin+QN/uFYJNir6oCE8Wv1qFgtLG866u2epO1s=",
   "Source": "PlaySafe",
   "BasePath": "_content/PlaySafe",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "PlaySafe\\wwwroot",
       "Source": "PlaySafe",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PlaySafe.styles.css",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PlaySafe.styles.css",
       "SourceId": "PlaySafe",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "PlaySafe.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PlaySafe.styles.css"
+      "OriginalItemSpec": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PlaySafe.styles.css"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PlaySafe.bundle.scp.css",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PlaySafe.bundle.scp.css",
       "SourceId": "PlaySafe",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "PlaySafe.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PlaySafe.bundle.scp.css"
+      "OriginalItemSpec": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PlaySafe.bundle.scp.css"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\css\\site.css",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\css\\site.css",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\favicon.ico",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\favicon.ico",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\images\\00bce1bd-98ef-474d-80e8-ee145e7b3eae\\Microsoft_Office_SharePoint_(2019–present).svg.png",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\images\\00bce1bd-98ef-474d-80e8-ee145e7b3eae\\Microsoft_Office_SharePoint_(2019–present).svg.png",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "images/00bce1bd-98ef-474d-80e8-ee145e7b3eae/Microsoft_Office_SharePoint_(2019–present).svg.png",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\images\\00bce1bd-98ef-474d-80e8-ee145e7b3eae\\Microsoft_Office_SharePoint_(2019–present).svg.png"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\images\\05098434-c528-470b-918c-d884f7b35c63\\xuPlE1EJ_400x400.png",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\images\\05098434-c528-470b-918c-d884f7b35c63\\xuPlE1EJ_400x400.png",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "images/05098434-c528-470b-918c-d884f7b35c63/xuPlE1EJ_400x400.png",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\images\\05098434-c528-470b-918c-d884f7b35c63\\xuPlE1EJ_400x400.png"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\images\\3682f227-c82c-421c-82ad-76bcbc7f14c6\\1049984.jpg",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\images\\3682f227-c82c-421c-82ad-76bcbc7f14c6\\1049984.jpg",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "images/3682f227-c82c-421c-82ad-76bcbc7f14c6/1049984.jpg",
       "AssetKind": "All",
@@ -136,10 +136,27 @@
       "OriginalItemSpec": "wwwroot\\images\\3682f227-c82c-421c-82ad-76bcbc7f14c6\\1049984.jpg"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\images\\72b98d15-7c4f-443b-985b-a709e9f88797\\facebook-icon-circle-logo-09F32F61FF-seeklogo.com.png",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\images\\3a7cde7a-b735-41ea-ab4a-5703d32d03ec\\1053268.jpg",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "BasePath": "_content/PlaySafe",
+      "RelativePath": "images/3a7cde7a-b735-41ea-ab4a-5703d32d03ec/1053268.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\3a7cde7a-b735-41ea-ab4a-5703d32d03ec\\1053268.jpg"
+    },
+    {
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\images\\72b98d15-7c4f-443b-985b-a709e9f88797\\facebook-icon-circle-logo-09F32F61FF-seeklogo.com.png",
+      "SourceId": "PlaySafe",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "images/72b98d15-7c4f-443b-985b-a709e9f88797/facebook-icon-circle-logo-09F32F61FF-seeklogo.com.png",
       "AssetKind": "All",
@@ -153,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\images\\72b98d15-7c4f-443b-985b-a709e9f88797\\facebook-icon-circle-logo-09F32F61FF-seeklogo.com.png"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\images\\819ad639-b9fa-4e11-9e88-7535efd0a2e7\\IMG_0024.JPG",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\images\\819ad639-b9fa-4e11-9e88-7535efd0a2e7\\IMG_0024.JPG",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "images/819ad639-b9fa-4e11-9e88-7535efd0a2e7/IMG_0024.JPG",
       "AssetKind": "All",
@@ -170,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\images\\819ad639-b9fa-4e11-9e88-7535efd0a2e7\\IMG_0024.JPG"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\images\\cb819f3d-4f43-4922-b2c7-8277bd7657f5\\download.png",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\images\\cb819f3d-4f43-4922-b2c7-8277bd7657f5\\download.png",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "images/cb819f3d-4f43-4922-b2c7-8277bd7657f5/download.png",
       "AssetKind": "All",
@@ -187,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\images\\cb819f3d-4f43-4922-b2c7-8277bd7657f5\\download.png"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\images\\dc04b170-7714-47c3-b4e9-2fe45dfb9be6\\1053268.jpg",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\images\\dc04b170-7714-47c3-b4e9-2fe45dfb9be6\\1053268.jpg",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "images/dc04b170-7714-47c3-b4e9-2fe45dfb9be6/1053268.jpg",
       "AssetKind": "All",
@@ -204,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\images\\dc04b170-7714-47c3-b4e9-2fe45dfb9be6\\1053268.jpg"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\images\\e9a12bdc-eebd-46ee-bcb6-9c5f0e30c85e\\1053268.jpg",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\images\\e9a12bdc-eebd-46ee-bcb6-9c5f0e30c85e\\1053268.jpg",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "images/e9a12bdc-eebd-46ee-bcb6-9c5f0e30c85e/1053268.jpg",
       "AssetKind": "All",
@@ -221,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\images\\e9a12bdc-eebd-46ee-bcb6-9c5f0e30c85e\\1053268.jpg"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\images\\f8f785d7-a662-4b9f-91e7-ee57d5f9e5ab\\200-2009955_default-youtube-icon-logo-05a29977fc-seeklogo-mute-icon.png",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\images\\f8f785d7-a662-4b9f-91e7-ee57d5f9e5ab\\200-2009955_default-youtube-icon-logo-05a29977fc-seeklogo-mute-icon.png",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "images/f8f785d7-a662-4b9f-91e7-ee57d5f9e5ab/200-2009955_default-youtube-icon-logo-05a29977fc-seeklogo-mute-icon.png",
       "AssetKind": "All",
@@ -238,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\images\\f8f785d7-a662-4b9f-91e7-ee57d5f9e5ab\\200-2009955_default-youtube-icon-logo-05a29977fc-seeklogo-mute-icon.png"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "js/signalr/dist/browser/signalr.js",
       "AssetKind": "All",
@@ -255,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\js\\signalr\\dist\\browser\\signalr.js"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\js\\signalr\\dist\\browser\\signalr.min.js",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\js\\signalr\\dist\\browser\\signalr.min.js",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "js/signalr/dist/browser/signalr.min.js",
       "AssetKind": "All",
@@ -272,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\js\\signalr\\dist\\browser\\signalr.min.js"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\js\\site.js",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\js\\site.js",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -289,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -306,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -323,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -340,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -357,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -374,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -391,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -408,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -425,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -442,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -459,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -476,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -493,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -510,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -527,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -544,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -561,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -578,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -595,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -612,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -629,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -646,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -663,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -680,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -697,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -714,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -731,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -748,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -765,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -782,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -799,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -816,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -833,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -850,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -867,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -884,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -901,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -918,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -935,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -952,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -969,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -986,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1003,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1020,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1037,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1054,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1071,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1088,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1105,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1122,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1139,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1156,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1173,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1190,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1207,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1224,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1241,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "PlaySafe",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\wwwroot\\",
+      "ContentRoot": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\wwwroot\\",
       "BasePath": "_content/PlaySafe",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

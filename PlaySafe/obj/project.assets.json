@@ -10221,19 +10221,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LENOVO\\.nuget\\packages\\": {}
+    "C:\\Users\\amrem\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\PlaySafe.csproj",
+      "projectUniqueName": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\PlaySafe.csproj",
       "projectName": "PlaySafe",
-      "projectPath": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\PlaySafe.csproj",
-      "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "D:\\Ramez's study\\Fereelancing\\PlaySafeNew\\PlaySafe\\obj\\",
+      "projectPath": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\PlaySafe.csproj",
+      "packagesPath": "C:\\Users\\amrem\\.nuget\\packages\\",
+      "outputPath": "F:\\Work2\\Last version\\mix\\PlaySafeNew\\PlaySafe\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\amrem\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10297,7 +10297,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

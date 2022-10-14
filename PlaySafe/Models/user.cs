@@ -11,6 +11,9 @@ namespace PlaySafe.Models
         public Guid userTypeId { get; set; }
         [ForeignKey("userTypeId")]
         public userType userType { get; set; }
+        public Guid? supervisorId { get; set; }
+        [ForeignKey("supervisorId")]
+        public user? supervisor { get; set; }
         [Required]
         [DisplayName("Name")]
         public string name { get; set; }
@@ -24,8 +27,9 @@ namespace PlaySafe.Models
         public DateTime createdDate { get; set; } = DateTime.Now;
         [DisplayName("Phone Num")]
         public string phoneNum { get; set; }
-        public string? photo { get; set; }
-        public int? points { get; set; } = 0;
+
+
+
     }
     public class registerViewModel
     {
@@ -44,5 +48,5 @@ namespace PlaySafe.Models
     {
         public string userName { get; set; }
         public string password { get; set; }
-    }   
+    }
 }
