@@ -468,6 +468,8 @@ namespace PlaySafe.Controllers
                 _context.SaveChanges();
                 if (match.isCustomPrice == true) HttpContext.Session.SetString("customPrice", "1");
                 else HttpContext.Session.SetString("customPrice", "0");
+                if (match.withPoints) HttpContext.Session.SetString("withPoints", "1");
+                else HttpContext.Session.SetString("withPoints", "0");
                 //return Redirect("/Users/logOut");                
                 return Redirect("/users/MatchTicket");
             }
@@ -483,15 +485,21 @@ namespace PlaySafe.Controllers
             var cost = _context.matchHistory.Where(x => x.userId == userInGuid && x.active == true).FirstOrDefault();
             var entry = _context.entry.Where(x => x.id == cost.entryId).FirstOrDefault();
             ViewBag.points = "No";
+            if (HttpContext.Session.GetString("withPoints") == "1")
+            {
+                ViewBag.points = "Yes";
+            }
+            else if (HttpContext.Session.GetString("withPoints") == "0")
+            {
+                ViewBag.points = "No";
+            }
             if (HttpContext.Session.GetString("customPrice") == "1")
             {
                 ViewBag.value = cost.customPrice;
-                ViewBag.points = "Yes";
             }
             else if(HttpContext.Session.GetString("customPrice") == "0")
             {
                 ViewBag.value = entry.price;
-                ViewBag.points = "No";
             }
             else
             {
